@@ -1,0 +1,1 @@
+sudo services httpd reload
