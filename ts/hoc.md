@@ -1,3 +1,4 @@
+```
 import React, { ReactNode } from 'react';
 import { Action } from 'redux';
 import { connect } from 'react-redux';
@@ -110,4 +111,5 @@ export type TOptions<propname extends string, TEntity, TOuterProps> = {
   renderError?: () => ReactNode;
   renderLoading?: () => ReactNode;
 };
+```
 
